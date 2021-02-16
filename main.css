@@ -1,0 +1,12 @@
+:root{
+    --blue-color: #0e83cd;
+    --orange-color: #ffcc00;
+    --green-color: #64bb5d;
+    --purple-color: #702fa8;
+    --darkgray-color: #323232;
+}
+
+.container {
+    max-width: 768px;
+}
+
