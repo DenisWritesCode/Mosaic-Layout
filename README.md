@@ -10,4 +10,5 @@
 2. When a button is clicked, using JS `getComputedStyle` get its color value. Set this value as the new *theme-color*.
 
 - [ ] The content should fit the entire screen i.e. Snap to fit.
+- [ ] Display images inside the grid.
 - [ ] The images should be clickable.
