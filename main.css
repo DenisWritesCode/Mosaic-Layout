@@ -1,12 +1,64 @@
 :root{
-    --blue-color: #0e83cd;
-    --orange-color: #ffcc00;
-    --green-color: #64bb5d;
-    --purple-color: #702fa8;
     --darkgray-color: #323232;
+
+    --theme-color: #0e83cd;
+
+    padding: 0;
+    margin: 0;
 }
 
 .container {
-    max-width: 768px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav, footer{ /* Apply this style to both footer and nav */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 20px;
+    background-color: var(--darkgray-color);
+    color: #d8d7d7;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav h2{
+    margin: 0px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #d8d7d7;
+    border-radius: 5px;
+}
+
+.blue {
+    background-color:#0e83cd;
+
+}
+
+.orange {
+    background-color:#ffcc00;
+}
+
+.green {
+    background-color:#64bb5d;
+}
+
+.purple {
+    background-color:#702fa8;
+}
+
+header{
+    background: var(--theme-color);
 }
 
