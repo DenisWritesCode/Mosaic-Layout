@@ -128,9 +128,13 @@ main .content {
     transform: rotateZ(45deg) scale(0.6);
 }
 
-main p {
+.content p {
     background-color: var(--darkgray-color);
     margin: 0;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .p1 {
@@ -156,10 +160,6 @@ main p {
 .p5 {
     grid-column: 1 / 6;
     grid-row: 6 / 9;
-}
-
-img {
-    display: none;
 }
 
 /* End of Gallery */
