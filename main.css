@@ -8,15 +8,25 @@
     background-color: #d8d7d7;
 }
 
+body{
+    margin: 0;
+}
+
 nav, footer{ /* Apply this style to both footer and nav */
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    top: 0;
+
     padding: 0px 20px;
     background-color: var(--darkgray-color);
     color: #d8d7d7;
     font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    position: sticky;
 }
 
 nav h2{
