@@ -1,4 +1,5 @@
 # Mosaic Layout
+![Finished Product](final.png)
 
 ## Stack Used
 - HTML
